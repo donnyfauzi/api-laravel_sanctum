@@ -55,7 +55,7 @@ class AuthController extends Controller
         $tokenModel->save();
 
         return response()->json([
-            'message' => 'Login berhasil dilakukan lagi dan lagi',
+            'message' => 'Login berhasil',
             'user' => $user,
             'token' => $token
         ]);
